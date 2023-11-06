@@ -1,0 +1,152 @@
+
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+    color:black;
+  }
+  
+  .logo {
+    float: left;
+    padding: 1px;
+  }
+  
+  .nav-links {
+    float: right;
+    padding: 15px;
+  }
+  .nav-links ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.nav-links li {
+    display: inline; 
+    margin-right: 10px; 
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+main{
+  text-align: center ;
+  color: #000; 
+}
+
+.underline {
+  text-align: center;
+}
+
+.center {
+  margin: 0 auto;
+  background-image: url('../images/landing.jpg'); 
+  background-size: 100% 100%; 
+  padding-bottom: 180px;
+  padding-top: 180px;
+  color: white;
+}
+
+section {
+  text-align: center; 
+}
+/* .underline h1 {
+  text-align: center; 
+} */
+
+.underline h1 span {
+  border-bottom: 2px solid transparent; /* Set the underline color to transparent to remove the double underline */
+  display: inline-block;
+  padding-bottom: 8px; /* space between text and underline */
+  margin: 0; 
+  position: relative;
+}
+
+.underline h1 span::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px; /* Increase the stroke width as needed */
+  background-color: mediumseagreen 
+}
+
+h4{
+  color: rgb(49, 147, 93);
+}
+
+#text{
+  color: #000000;
+}
+
+article.main1 {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+  margin: 0 70px; 
+  vertical-align: top;
+}
+
+/* article.main1 {
+  display: inline-block;
+  text-align: center; 
+  margin-right: 20px;
+  margin: 0 70px; 
+  vertical-align: top; 
+} */
+
+.green {
+  background-size: cover;
+  background-color: rgb(49, 147, 93);
+  overflow: hidden;
+  color: #ffffff;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.green .main2 {
+  display: block;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.White-underline h1 {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.White-underline h1::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+.green .image1 {
+  
+  margin-left: 50px;
+}
+
+.green .image2 {
+  margin-left: 110px;
+  margin-bottom: 60px;
+
+}
+
+table{
+  display: flex;
+  justify-content: center;
+}
